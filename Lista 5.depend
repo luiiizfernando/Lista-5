@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1589658118 source:/home/fernando/Documentos/Lista 5/com112_file.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"com112_sort.h"
+	"com112_file.h"
+
+1589648045 /home/fernando/Documentos/Lista 5/com112_sort.h
+
+1589566999 /home/fernando/Documentos/Lista 5/com112_file.h
+
+1589654513 source:/home/fernando/Documentos/Lista 5/com112_sort.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"com112_sort.h"
+	"com112_file.h"
+
+1589658971 source:/home/fernando/Documentos/Lista 5/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"com112_sort.h"
+	"com112_file.h"
+
