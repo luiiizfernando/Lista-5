@@ -81,6 +81,7 @@ void insertion_sort(int *v, int n, int *comparacao, int *movimento)
         {
             v[j] = v[j - 1];
             *movimento = *movimento + 1;
+            *comparacao = *comparacao + 1;
         }
         v[j] = aux;
     }
@@ -145,7 +146,6 @@ void merge(int *v, int inicio, int meio, int fim, int *comparacao, int *moviment
 void mergeSort(int *v, int inicio, int fim, int *comparacao, int *movimento)
 {
     int meio;
-    *comparacao = *comparacao + 1;
     if(inicio < fim){
         meio = floor((inicio+fim)/2);
         mergeSort(v,inicio,meio, comparacao, movimento);
